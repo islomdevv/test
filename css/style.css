@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.humanity__header {
+    width: 100%;
+    height: 50px;
+    background: #77D7D3;
+}
+
+.humanity__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.humanity__header__ul1 {
+    display: flex;
+}
+
+.humanity__header__ul2 {
+    display: flex;
+    background: #4BC9C4;
+    width: 155px;
+    height: 50px;
+    align-items: center;
+}
+
+.humanity__header__ul1 li a {
+    text-decoration: none;
+    color: #126360;
+}
+
+.humanity__header__ul1 li {
+    list-style: none;
+    padding: 15px 40px 12px 0px;
+
+}
+
+.humanity__header__ul2 li a {
+    text-decoration: none;
+}
+
+.humanity__header__ul2 li {
+    list-style: none;
+    padding: 15px 5px 15px 12px;
+    align-items: center;
+}
+
+
+.humanity__header__tables {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.humanity__header__tables ul {
+    display: flex;
+    align-items: center;
+}
+
+.humanity__header__tables ul li {
+    list-style: none;
+}
+
+.humanity__header__tables ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.left {
+    border-left: 1px solid #2E4049;
+}
+
+.donate {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.donate__btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: #FF6D6D;
+    color: #fff;
+}
+
+.Humanity__hero {
+    margin-top: 100px;
+    background-image: url(../images/Photo\ \(2\).svg);
+    width: 1349px;
+    height: 750px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Humanity__hero__title {
+    position: absolute;
+    margin-top: 265px;
+}
+
+.Humanity__hero__two {
+    position: relative;
+}
+
+.Humanity__hero__h2 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 500px;
+}
+
+.Humanity__hero__two__icon {
+    background-image: url(../images/Photo.svg);
+    width: 560px;
+    height: 500px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.Humanity__hero__two__text {
+    position: absolute;
+    margin-left: 590px;
+}
+
+.Humanity__hero__two__text h5 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.lorem {
+    margin-top: 15px;
+    color: #727272;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+
+.save {
+    margin-top: 30px;
+    color: #538582;
+    background: #DEF1F0;
+    padding: 15px 15px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Humanity__hero__two__text a {
+    text-decoration: none;
+    background: #2E4049;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 35px;
+}
+
+.more {
+    padding-left: 50px;
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background: #2E4049;
+    margin-left: 140px;
+    color: #fff;
+    align-items: center;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.Humanity__hero__two__icon__two {
+    width: 55px;
+    height: 55px;
+}
+
+.hee {
+    padding-left: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.Humanity__hero__three__ul ul {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    margin-top: 60px;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+
+.Humanity__hero__three__ul li {
+    list-style: none;
+}
+
+.Humanity__hero__four__Helped {
+    display: flex;
+}
+
+span {
+    border-radius: 25px;
+    background: #F2F2F2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    display: flex;
+    padding: 8px;
+}
+
+.make {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: -15px;
+}
+
+.spann {
+    text-align: center;
+    align-items: center;
+
+}
+
+span img {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+span a {
+    color: #727272;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.lorem2 {
+    margin-top: 20px;
+    line-height: 22px;
+    color: #727272;
+}
+
+.our__goal__lorem {
+    color: #727272;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.our__goal h2 {
+    margin-bottom: 15px;
+}
+
+.our__mission h2 {
+    margin-bottom: 15px;
+}
+
+.our__mission__lorem {
+    color: #727272;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.our__mission__icon2 {
+    margin-top: -100px;
+    margin-left: 30px;
+}
+
+.Humanity__Volunteers__hero__top {
+    text-align: center;
+}
+
+.Humanity__Volunteers__hero__bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.Humanity__Volunteers__section__1 {
+    text-align: center;
+}
+
+.Humanity__Volunteers__section__2 {
+    text-align: center;
+}
+
+.Humanity__Volunteers__section__3 {
+    text-align: center;
+}
+
+.Humanity__Volunteers__section__4__icon {
+    margin-top: 1px;
+    margin-left: 1px;
+
+}
+
+.become {
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    background-color: #2E4049;
+    margin-left: 67px;
+    margin-top: 45px;
+}
+
+.Humanity__Volunteers__section__1__icon {
+    width: 230px;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.Humanity__Volunteers__section__2__icon {
+    width: 230px;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.Humanity__Volunteers__section__3__icon {
+    width: 230px;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.Humanity__Volunteers__section__4 {
+    width: 240px;
+    height: 360px;
+    background-color: #77D7D3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Humanity__Volunteers__section__4 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Humanity__Volunteers__section__4 p {
+    color: #2E4049;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.Humanity__Volunteers__section__4 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2E4049;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.Humanity__Volunteers {
+    padding-top: 120px;
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    background-color: #F1EEEC;
+}
+
+.Humanity__Volunteers__hero__top h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.Humanity__Volunteers__section__1 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Humanity__Volunteers__section__2 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Humanity__Volunteers__section__3 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Humanity__Newsletter {
+    background-image: url(../images/Photo.png), url(../images/Background.png);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Humanity__Newsletter__hero {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.Humanity__Newsletter__hero img {
+    padding-bottom: 10px;
+}
+
+.Humanity__Newsletter__hero h2 {
+    padding-bottom: 12px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.Humanity__Newsletter__hero p {
+    color: #fff;
+    padding-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+.Humanity__Newsletter__send input {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+
+.Humanity__Newsletter__send button {
+    width: 85px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2E4049;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.Humanity__bottom {
+    width: 100%;
+    height: 425px;
+    background-color: #465A64;
+}
+
+.Humanity__bottom__hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.Humanity__bottom__hero__right {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 260px;
+    background-color: #384C56;
+}
+
+.Humanity__bottom__hero__left__icon {
+    width: 220px;
+    height: 50px;
+    padding-top: -20px;
+
+}
+
+.Humanity__bottom__hero__left p {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    line-height: 22px;
+}
+
+.Humanity__bottom__hero__right li {
+    list-style: none;
+    padding: 5px;
+}
+
+.Humanity__bottom__hero__right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Humanity__bottom__hero__right ul {
+    background-position: center;
+    padding-top: 45px;
+}
+
+.Humanity__bottom__hero__right h3 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.Humanity__bottom__hero__right__1 {
+    padding-right: 60px;
+}
+
+.Humanity__bottom__hero__right__2 {
+    padding-right: 60px;
+}
+
+.clak {
+    margin-top: 10px;
+}
+
+.Humanity__bottom__hero__right__1 a:hover {
+    color: #FF6D6D;
+}
+
+.Humanity__bottom__hero__right__2 a:hover {
+    color: #FF6D6D;
+}
+
+.Humanity__bottom__hero__right__3 a:hover {
+    color: #FF6D6D;
+}
+
+.footer {
+    border-top: 1px solid #384C56;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #465A64;
+    font-weight: 400;
+}
+
+.footer p {
+    color: #FFFFFF;
+}
